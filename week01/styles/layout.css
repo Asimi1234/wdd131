@@ -1,0 +1,82 @@
+
+/* General body setup with grid layout */
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #333;
+    color: white;
+  }
+  
+  .header-content {
+    padding: 10px;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* Navigation menu with flexbox */
+  nav {
+    background-color: black;
+ height: 40px;
+  }
+  
+  .nav-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    gap: 42px,
+
+  }
+  
+  .nav-menu li {
+    margin: 0 100px;
+  }
+  
+  .nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .nav-menu a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main content and aside using grid */
+  main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: #ddd;
+  }
+  
+  .main-content {
+    background-color: #ccc;
+    padding: 20px;
+    border: 1px solid #bbb;
+  }
+  
+  aside {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #bbb;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
