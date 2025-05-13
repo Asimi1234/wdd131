@@ -1,4 +1,8 @@
 /* temples.css (Mobile-first styles) */
+
+:root{
+  --font-weight: bolder
+}
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -48,7 +52,7 @@ body {
     text-decoration: none;
   }
   .nav-menu a:hover{
-    font-weight: bolder;
+    font-weight: var(--font-weight);
     color: gray;
   }
   main {
