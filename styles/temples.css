@@ -47,7 +47,10 @@ body {
     color: white;
     text-decoration: none;
   }
-  
+  .nav-menu a:hover{
+    font-weight: bolder;
+    color: gray;
+  }
   main {
     padding: 1rem;
     text-align: center;
