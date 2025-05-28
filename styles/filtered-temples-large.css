@@ -8,7 +8,10 @@
       justify-content: center;
       gap: 3rem;
     }
-
+   .nav-menu ul a:hover{
+    display: none;
+    color: darkgray;
+   }
   
     .hamburger {
       display: none;
