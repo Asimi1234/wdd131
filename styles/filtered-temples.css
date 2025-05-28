@@ -44,7 +44,7 @@ body {
     padding: 0;
   }
   .nav-menu ul a:hover{
-    display: none;
+    text-decoration: none;
     color: darkgray;
    }
   

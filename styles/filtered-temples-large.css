@@ -9,7 +9,7 @@
       gap: 3rem;
     }
    .nav-menu ul a:hover{
-    display: none;
+    text-decoration: none;
     color: darkgray;
    }
   
