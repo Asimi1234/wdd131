@@ -8,6 +8,10 @@
       justify-content: center;
       gap: 3rem;
     }
+    .nav-menu ul a{
+    text-decoration: none;
+    color: rgb(32, 28, 28);
+   }
    .nav-menu ul a:hover{
     text-decoration: none;
     color: darkgray;
