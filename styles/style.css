@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ 
 }
 
 body {
@@ -79,7 +80,7 @@ fieldset label {
 }
 
 /* Submit Button */
-input[type="submit"] {
+button{
   margin-top: 2rem;
   padding: 0.8rem 1.2rem;
   background: #4f46e5;
