@@ -365,6 +365,13 @@ section {
     margin-bottom: 0.5rem;
 }
 
+.references-main ul img{
+    max-width: 70%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
 
 footer {
     background-color: #2a9d8f; 
