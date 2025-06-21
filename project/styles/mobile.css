@@ -345,7 +345,12 @@ section p {
     text-align: left;
 }
 
-
+.references-main ul img{
+    max-width: 70%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
 
 footer {
     padding: 0.8rem 1rem;
